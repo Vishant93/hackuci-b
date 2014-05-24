@@ -1,0 +1,7 @@
+function myFunction()
+{
+	
+
+var audio = new Audio('sound/exercise is very important.mp3');
+audio.play();
+}
