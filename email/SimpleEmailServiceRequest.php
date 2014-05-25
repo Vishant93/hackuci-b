@@ -132,7 +132,7 @@ final class SimpleEmailServiceRequest
 				'curl' => true,
 				'code' => curl_errno($curl),
 				'message' => curl_error($curl),
-				'resource' => $this->resource
+				//'resource' => $this->resource
 			);
 		}
 
@@ -170,8 +170,9 @@ final class SimpleEmailServiceRequest
 	* @return integer
 	*/
 	private function __responseWriteCallback(&$curl, &$data) {
-		$this->response->body .= $data;
-		return strlen($data);
+		//$this->response->body .= $data;
+		//return strlen($0);
+		return 0;
 	}
 
 	/**

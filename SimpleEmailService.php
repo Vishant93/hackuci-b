@@ -363,7 +363,7 @@ class SimpleEmailService
 		}
 		else if(isset($error['curl']) && $error['curl'])
 		{
-			//trigger_error(sprintf("SimpleEmailService::%s(): %s %s", $functionname, $error['code'], $error['message']), E_USER_WARNING);
+			trigger_error(sprintf("SimpleEmailService::%s(): %s %s", $functionname, $error['code'], $error['message']), E_USER_WARNING);
 		}
 		else if(isset($error['Error']))
 		{

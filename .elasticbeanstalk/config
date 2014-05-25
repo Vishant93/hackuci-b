@@ -1,0 +1,14 @@
+[global]
+ApplicationName=Rare Positivity Page
+AwsCredentialFile=C:\Users\Earl\.elasticbeanstalk\aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.us-west-1.amazonaws.com
+EnvironmentName=RarePositivityPage-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=LoadBalanced
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=C:\Users\Earl\Desktop\hackuci-b\.elasticbeanstalk\optionsettings.RarePositivityPage-env
+RdsEnabled=No
+Region=us-west-1
+ServiceEndpoint=https://elasticbeanstalk.us-west-1.amazonaws.com
+SolutionStack=64bit Amazon Linux 2014.03 v1.0.2 running PHP 5.5
+
