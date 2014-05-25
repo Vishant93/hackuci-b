@@ -4,7 +4,7 @@
 
 <?php require_once("./email/SimpleEmailService.php");
 
-$ses = new SimpleEmailService('AKIAJUMWRZQLLLZ2ACFA', '37eA4qhq4L9KL6wf6Vuf5nRuDZSUADqhPa9bkt99');
+$ses = new SimpleEmailService('AKIAJUMWRZQLLLZ2ACFA', 'XXX');
 
 $m = new SimpleEmailServiceMessage();
 $m->addTo('earl909@yahoo.com');
